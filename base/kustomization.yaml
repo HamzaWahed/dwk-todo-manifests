@@ -10,3 +10,4 @@ resources:
   - manifests/nats-deployment.yaml
 images:
   - name: PROJECT/IMAGE
+  - name: PROJECT/NATS_IMAGE

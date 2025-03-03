@@ -1,0 +1,6 @@
+resources:
+  - ./../../base
+
+images:
+  - name: PROJECT/NATS_IMAGE
+    newName: hzd454/nats-broadcaster:staging
