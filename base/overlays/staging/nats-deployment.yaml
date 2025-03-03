@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nats-dep
+spec:
+  template:
+    spec:
+      containers:
+        - name: broadcaster
+          image: PROJECT/NATS_IMAGE
+          imagePullPolicy: Always
+          env:
+            - name: NATS_URL
+              value: nats://my-nats:4222
+            - name: WEBHOOK
+              value: https://discord.com/api/webhooks/1345857986777579629/CY3UevPyB2u4t24qWdQQRiB163L-IC1_q66mce1_kqYw-gP65mpZW6K2XDO7toimkr7j
+            - name: STAGING
+              value: true
+          resources:
+            limits:
+              memory: 150Mi
+              cpu: 150m
