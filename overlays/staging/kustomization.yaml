@@ -1,5 +1,5 @@
 resources:
-  - ../../base/nats-deployment.yaml
+  - ../../base
 
 patches:
   - path: nats-deployment.yaml
