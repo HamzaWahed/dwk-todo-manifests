@@ -4,6 +4,8 @@ resources:
 patches:
   - path: nats-deployment.yaml
 
+namePrefix: staging-
+
 images:
   - name: PROJECT/NATS_IMAGE
     newName: hzd454/nats-broadcaster
