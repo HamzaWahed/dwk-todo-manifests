@@ -9,6 +9,6 @@ namePrefix: staging-
 images:
 - name: PROJECT/NATS_IMAGE
   newName: hzd454/nats-broadcaster
-  newTag: 53adb2af6ebbab4c9ab5bec0af21aa139a37a8b8
+  newTag: a746ec864855874802963cecaa240623fb770a02
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
