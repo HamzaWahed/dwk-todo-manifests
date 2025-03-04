@@ -6,7 +6,7 @@ This repository contains Kubernetes manifests for deploying the dwk-todo applica
 
 - **dwk-todo Application**: Main application with health check probes and PostgreSQL connectivity
 - **PostgreSQL Database**: Stateful database with persistent storage
-- **NATS Broadcaster**: Service for broadcasting events with Discord webhook integration
+- **NATS Broadcaster**: Service for broadcasting events with Discord webhook integration. The webhook in the repo is just a placeholder, and is not a valid url.
 - **ArgoCD**: Configuration for continuous deployment
 
 ## Environment Differences
