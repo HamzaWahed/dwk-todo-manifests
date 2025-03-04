@@ -9,7 +9,7 @@ namePrefix: staging-
 images:
 - name: PROJECT/IMAGE
   newName: hzd454/todo-app
-  newTag: ac13eb62b49c89ed455d0d014d5794abe2684f83
+  newTag: 853af2c0f47d5c798afefba540d289c7bf22a6a0
 - name: PROJECT/NATS_IMAGE
   newName: hzd454/nats-broadcaster
   newTag: c8b276769c9d97de619a0f77443005e7bdf63ec2
