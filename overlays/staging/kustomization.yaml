@@ -1,7 +1,8 @@
 resources:
   - ../../base
 
-namePrefix: staging-
+patches:
+  - path: nats-deployment.yaml
 
 images:
   - name: PROJECT/IMAGE
