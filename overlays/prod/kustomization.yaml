@@ -6,5 +6,7 @@ images:
   newName: hzd454/todo-app
   newTag: 697b2a3d6342b483a9bebbe7455d447003ec3f0e
 - name: PROJECT/NATS_IMAGE
+  newName: hzd454/nats-broadcaster
+  newTag: 9b6e8329216d08b3b2c2127d14b96a980fbcd4a0
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
