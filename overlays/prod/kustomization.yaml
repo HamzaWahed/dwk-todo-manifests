@@ -1,8 +1,10 @@
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: PROJECT/NATS_IMAGE
-  - name: PROJECT/IMAGE
+- name: PROJECT/IMAGE
+  newName: hzd454/todo-app
+  newTag: 697b2a3d6342b483a9bebbe7455d447003ec3f0e
+- name: PROJECT/NATS_IMAGE
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
