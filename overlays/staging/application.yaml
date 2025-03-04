@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/HamzaWahed/dwk-todo-manifests
-    path: base/overlays/staging
+    path: overlays/staging
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
