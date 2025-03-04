@@ -1,8 +1,8 @@
 resources:
   - ../../base/nats-deployment.yaml
 
-patchesStrategicMerge:
-  - nats-deployment.yaml
+patches:
+  - path: nats-deployment.yaml
 
 namePrefix: staging-
 
