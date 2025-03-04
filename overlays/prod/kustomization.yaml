@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namePrefix: prod-
+
+images:
+  - name: PROJECT/NATS_IMAGE
+  - name: PROJECT/IMAGE
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization

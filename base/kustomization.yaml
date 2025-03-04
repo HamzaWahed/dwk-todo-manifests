@@ -1,13 +1,13 @@
 resources:
-  # - configmap.yaml
-  # - postgres-init.yaml
-  # - secret.yaml
-  # - postgres.yaml
-  # - persistentvolumeclaim.yaml
-  # - service.yaml
-  # - ingress.yaml
-  # - deployment.yaml
+  - configmap.yaml
+  - postgres-init.yaml
+  - secret.yaml
+  - postgres.yaml
+  - persistentvolumeclaim.yaml
+  - service.yaml
+  - ingress.yaml
+  - deployment.yaml
   - nats-deployment.yaml
 images:
-  # - name: PROJECT/IMAGE
+  - name: PROJECT/IMAGE
   - name: PROJECT/NATS_IMAGE
