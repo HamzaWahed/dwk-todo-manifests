@@ -1,17 +1,14 @@
 resources:
-- ../../base
-
-patches:
-- path: nats-deployment.yaml
+  - ../../base
 
 namePrefix: staging-
 
 images:
-- name: PROJECT/IMAGE
-  newName: hzd454/todo-app
-  newTag: 853af2c0f47d5c798afefba540d289c7bf22a6a0
-- name: PROJECT/NATS_IMAGE
-  newName: hzd454/nats-broadcaster
-  newTag: c8b276769c9d97de619a0f77443005e7bdf63ec2
+  - name: PROJECT/IMAGE
+    newName: hzd454/todo-app
+    newTag: 853af2c0f47d5c798afefba540d289c7bf22a6a0
+  - name: PROJECT/NATS_IMAGE
+    newName: hzd454/nats-broadcaster
+    newTag: c8b276769c9d97de619a0f77443005e7bdf63ec2
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

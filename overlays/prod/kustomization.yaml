@@ -1,8 +1,6 @@
 resources:
   - ../../base
 
-namePrefix: prod-
-
 images:
   - name: PROJECT/NATS_IMAGE
   - name: PROJECT/IMAGE
